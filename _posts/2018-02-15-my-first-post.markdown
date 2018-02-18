@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Title Of This Post
+title: Designing The Future Of Luxury
+category: Hodinkee
 ---
 
 
