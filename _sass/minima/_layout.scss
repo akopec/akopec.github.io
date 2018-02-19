@@ -6,15 +6,32 @@
   margin-bottom: 80px;
 }
 
-.client-name {
-  color: $grey-color-light;
-}
-
 .project-info h3 {
   margin-bottom: 0px;
   @include relative-font-size(1.5);
 }
 
+.project-info img {
+  margin-bottom: 15px;
+}
+
+a.post-link.client-name {
+  color: $grey-color-light;
+}
+
+a.post-link.client-name:hover {
+  text-decoration: none;
+}
+
+.learn-more {
+  text-decoration: underline;
+  text-decoration-color: #BE00FF;
+  cursor: pointer;
+}
+
+#learning-more {
+  display: none;
+}
 /**
  * Page content
  */

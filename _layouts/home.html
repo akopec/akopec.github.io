@@ -7,9 +7,47 @@ layout: homepage-only
     <h1 class="page-heading">{{ page.title }}</h1>
   {% endif %}
 
+
   {{ content }}
 
-    <h2 class="intro">Adam Kopec is a multi-displinary designer from New York City, currently the Design Director at Hodinkee. He’s passionate about people, doing more with less, and building compelling products with soul. Learn more.
+  <script>
+    function myFunction() {
+      var x = document.getElementById("learning-more");
+      if (x.style.display === "block") {
+          x.style.display = "none";
+      } else {
+          x.style.display = "block";
+      }
+    }
+    
+    function other() {
+      var x = document.getElementById("button");
+      if (x.innerHTML === "Learn more.") {
+        x.innerHTML = "Learn less.";
+      } else {
+        x.innerHTML = "Learn more.";
+      }
+    }
+  </script>
+
+
+
+    <h2 class="intro">Adam Kopec is a multi-displinary designer from New York City, currently the Design Director at Hodinkee. He’s passionate about people, doing more with less, and building compelling products with soul. <a class="learn-more" id="button" onclick="myFunction(); other();">Learn more.</a>
+    
+    <div id="learning-more">
+      <br>
+      Previously, he was an indpendent design consultant for clients like Warby Parker, First Round Capital, & more. He’s co-created some fun apps in his spare time such as Grateful, a SMS-based gratidude Journal, Enhance!, a gif-creator and a Stacks, a fun way to send money.  More of that can be on LinkedIn.
+      <br>
+      <br>
+      He’s passionate about building strong brands and compelling products. Believer in people, doing more with less, and building useful products with soul.
+      <br>
+      <br>
+      He likes to write occasionally, travel, plays music, drive old cars, wear old watches. He’s inspired by archeticture, car, watch and furniture design.
+      <br>
+      <br>
+      You should follow him on Instagram and Twitter. Or simply send him an email. He likes mail.
+    </div>
+
     </h2>
     
 
@@ -22,8 +60,11 @@ layout: homepage-only
         <span class="post-meta">{{ post.date | date: date_format }}</span> -->
         <div class="project-info">
            <a class="post-link" href="{{ post.url | relative_url }}">
+              <img src="{{ post.thumbnail }}"/>
               <h3> {{ post.title | escape }} </h3>
-              <h3 class="client-name"> {{ post.category | escape }}</h3>
+          </a>
+          <a class="post-link client-name" href="{{ post.url | relative_url }}">
+            <h3>{{ post.category | escape }}</h3>
           </a>
         </div>
 
