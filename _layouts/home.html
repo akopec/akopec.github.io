@@ -11,7 +11,7 @@ layout: homepage-only
   {{ content }}
 
   <script>
-    function myFunction() {
+    function revealBio() {
       var x = document.getElementById("learning-more");
       if (x.style.display === "block") {
           x.style.display = "none";
@@ -20,7 +20,7 @@ layout: homepage-only
       }
     }
     
-    function other() {
+    function changeText() {
       var x = document.getElementById("button");
       if (x.innerHTML === "Learn more.") {
         x.innerHTML = "Learn less.";
@@ -31,8 +31,7 @@ layout: homepage-only
   </script>
 
 
-
-    <h2 class="intro">Adam Kopec is a multi-displinary designer from New York City, currently the Design Director at Hodinkee. He’s passionate about people, doing more with less, and building compelling products with soul. <a class="learn-more" id="button" onclick="myFunction(); other();">Learn more.</a>
+    <h2 class="intro">Adam Kopec is a multi-displinary designer from New York City, currently the Design Director at Hodinkee. He’s passionate about people, doing more with less, and building compelling products with soul. <a class="learn-more" id="button" onclick="revealBio(); changeText();">Learn more.</a>
     
     <div id="learning-more">
       <br>
