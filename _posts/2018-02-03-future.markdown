@@ -4,6 +4,7 @@ title: "Designing The Future Of Luxury"
 date: 	2018-02-04 16:07:07 -0500
 category: Hodinkee
 thumbnail: "/assets/luxury.jpg"
+tag: hodinkee-3
 
 ---
 
@@ -21,3 +22,114 @@ HODINKEE says it's [right here](https://www.google.com)
 
 
 In most cases, people expressed frustration that they were buying a watch from someone who simply didn’t care as much or know the first thing about what they were selling. It was just a job to them. It made me think of a line I once heard from a friend who was, at the time, the CEO of Tourneau. He told me: "Ben, HODINKEE is the best thing to ever happen to us, and the worst. More young people care about watches than ever before, but because of you, they know more than our salespeople."
+
+
+
+
+Roles:
+Technology Team Lead, Business Design, Lead
+
+Our online accessories business was doing well, we then got into vintage watches, watches selling out in minutes. We had done limited editions, extremely successful. The next step seemed to be to sell modern watches online.
+
+At the end of 2017, we decided we want to take Hodinkee, the world’s leading wristwatch editorial publication, from a
+
+By offering modern watches, we’re betting our reader base would purchase watches new from us, and pay full retail. Why would they do that? One could easily purchase the same product at a discount by any number of watch dealers. Preowned and save nearly 40%? How can you design an experience that would facilitate such a thing? 
+
+Luckily, the one thing we had going for us is an incredibly powerful brand in the watch world. Years of honest, passion-driven editorial about watches, attracted a large enthusiast reader base.  "Trusted, responsible, they would never half-baked, innovative, user-friendly, intuitive, educational, people who appreciate artistry, fresh, intelligent, modern and vintage, tastemakers" are some words our readers have said about us, and it was mission critical we .
+
+At the end of the day, a brand is just a series of promises. And it’s the successful brands that deliver on this promises consistently. For Hodinkee, that means authenticity, honesty, trust, taste, curation, scholarship. It promises passion, a love for details and craftsmanship. And above all else, a true, “watch guys” unadulterated passion for watches. 
+
+Therefore, how do we leverage this into a luxury e-commerce experience? If we we’re going to create a compelling experience, it needs to uphold all those core values, and then some. (The stakes we’re even higher because we’re now taking money directly from our consumers!) Not to mention, we needed to design an experience will maintain the editorial integrity of which we were founded on. 
+
+The following is a case study on how we used a combination of design, technology, creative direction and storytelling to make authorized retailer of new luxury watches online, and a completely different way of doing business for us
+
+We collectively outlined the values we felt this experience needed to deliver on: 
+Authentic and passionate
+These value permeates every aspect
+Painstainkly curated
+We promised only to sell watches that we believed in and would wear. Only the best and most special we could get our hands on. Nothing more, and nothing less
+High-touch and world-class customer service
+Fast and on-demand
+Shopping with us had to feel luxurious, and to us that means fast and on-demand.
+Value-driven
+If you can’t add any value, you discount. If you can’t discount, you add value. We didn’t want to be in a race to see who can discount the fartherest, we wanted to provide unique experiences
+Personalized
+
+
+Good design is as little design possible. 
+One of Hodinkee’s greatest strengths is storytelling and presentation, so it was vital we leveraged that. The visual design should take backseat to content. Monochrome color palette, clean stoic editorial typefaces, airy layouts take a backseat to let the heros shine through: big beautiful photography showing every sumptuous detail of the product. It became clear that content was going to be the hero.
+
+Hodinkee-stye storytelling 
+Language is design. How we perceive a product can well be shaped by language. For instance, check out this watch. [picture] What if I told you X? You view it completely differently right? Self-aggrandizing, flowery, marketing language typical to the watch industry took a backseat to honest descriptions and facts. We intentionally left the “selling” part out and simply gave our readers the facts.  We talk about watches from the point of view of the watch nerd. The enthusiast. The guy or gal is passionate about watches not for the typical status symbol, but for the love of a well made product. 
+
+Product photography should be aspirational, but honest and eye-level
+The creative direction and design should convey that. Therefore, we made a conscious choice to make things feel light and airy, but not too stark. We added a touch of warmth to our images with a grey background. Images are shot in a natural-style direction and our models are wearing relatively modest clothes. We noticed nearly all other watch retailers highly retouch their images. Or sometimes are just plain CGI. The subtitles of tone and creative direction had to be dialed in (it was so easy to get it wrong). When designing this experience, I wanted our love for watches to permeate every point of the way. [images of test shots] For instance, Everything we presented must feel aspirational, but eye-level. Hodinkee has always been about giving.We wanted the watches to feel real. Natural lit. No over the top old world luxury stuff. We even fine tuned the background to feel good. We believe in being aspirational but eye level.
+
+It should be extremely easy to get in touch with us
+While speed is certainly important, we also wanted to design an experience that allowed us to build relationships with our customers. We understand that buying a luxury watch isn’t just about the watch, it’s about having a relationship with the seller. You’re not just buying the watch, you are buying the buying trust that we’ll get your back, that we’ll be there if something goes wrong. That’s why I designed as many touch points for our customers to get in contact with us possible. Live chat your fingertips, 
+
+Buying should feel personal
+Customer service should be top notch, but it’s there not just fix order problems, but also to build relationships. We maintain relationships with out customers. Additionally, we designed our packaging to have our customers information on each box. We’ve even built a fun quiz called “Watch Finder” which asks a series of question, then recommends watches for you. It should feel fun and personalize. The most important word to a customer is their name.
+
+
+Readers should have everything they need to make a purchasing decision
+A watch doesn’t live in a vacuum, it’s about it’s history, what it represents, what it says about you as a person. Therefore, the photography should provide a wrist shot, but also.
+
+Great, now that we’ve set the tone, and perhaps a watch has caught the eye of a consumer. How do you then convince this person what this watch looks like on their wrist, whether or not they’ll like it in person? Well first you design the experience so it’s very easy to purchase this watch (hence Apple Pay) and make for easy returns. (Something that is unheard of in jewelers, who don’t normally accept returns). But also you provide as much context and practice information as possible. 
+For instance, we built an “actual size” feature on the iOS app. We also began prototyping augmented reality. Also very clear you. Wristshots
+
+We even link to stories to our competitors so you can get the fullest picture.
+
+Buying should feel on-demand, risk-free, fast and extremely convenient
+This should be obvious to most, but luxury means speed and convenience. However, in the current state of the watch world, it is not. [show image of having to call to purchase]
+
+[image of apple pay] 
+Free shipping and return was a must. We built a tool to store all your paperwork online
+
+Add value at every point of the journey
+We built an interface to store all your paperwork online for you. We design a special carrying case for your watch that you receive when you get it. We want, in the same way, purchasing a watch from hermes/tiffany adds value to your piece later on, we want hodinkee to feel the same.
+
+
+(Talk about H Shop + Shop journal - maybe site specific?)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+If you can’t discount, you must add value
+Fast, reliable, on-demand
+High touch customer service
+If you can’t discount, you must add value
+
+So how do you design an online and offline experience that leverages these values, an 
+
+After establishing our goals, we decided overall, we established core values and principles to how we do business and how the 
+
+
+Every aspect of the experience, from creative direction to packaging to the web and app experience needed to feel:
+Authentic
+Highly curated
+Fast and on-demand
+Value-driven
+Personalized 
+High-touch
+
+
+
+With the HODINKEE Shop, it is our goal to make watch buying fun and easy. This way people will care about watches for years to come, because lets remember, and we are the first to admit it, nobody needs a watch anymore. So the entire experience should be fun, not frustrating. As such, every watch you see in the new HODINKEE Shop will ship same day and insured to anywhere in the world. In the United States that means overnight service and internationally we'll get the watch to you as quickly as a courier can move. Because who wants to wait? And who would have the gall to charge a shipping cost after someone just saved up their hard-earned money and decided to spend it with you on a watch? Not us.
+
+What's more, every single watch will come with a certified insurance appraisal. There's no need to pay an independent appraiser $250 for some paperwork you're just going to send to your insurance company – we've got you covered. Oh, and we're gonna go ahead and give you an additional year of warranty coverage, on us. That means you'll get the manufacturers warranty – usually two or three years depending on brand – plus an additional 12 months covered by HODINKEE. You deserve it and we're excited you're choosing to shop with us.
+
+Case study of what we did?
+Case study of how you can use design to create an online luxury experience? 
+Don’t think it’s that literal
+

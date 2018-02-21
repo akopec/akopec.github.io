@@ -2,8 +2,12 @@
 
 .intro {
   @include relative-font-size(1.625);
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 190px;
+  margin-bottom: 220px;
+}
+
+.intro span {
+  font-weight: bold;
 }
 
 .project-info h3 {
@@ -32,6 +36,20 @@ a.post-link.client-name:hover {
 #learning-more {
   display: none;
 }
+
+ul.post-list li:nth-child(n+6) {  
+  width: 47%;
+  display: inline-block;
+  padding-right: 16px;
+}
+
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.8;
+  z-index: -100
+}
+
 /**
  * Page content
  */
@@ -54,7 +72,7 @@ a.post-link.client-name:hover {
   list-style: none;
 
   > li {
-    margin-bottom: $spacing-unit;
+    margin-bottom: $large-spacing-unit;
   }
 }
 
@@ -241,9 +259,6 @@ a.post-link.client-name:hover {
 
 
 
-
-
-
 /**
  * Posts
  */
@@ -266,6 +281,7 @@ a.post-link.client-name:hover {
 
   h2 {
     @include relative-font-size(2);
+    margin-top: 40px;
 
     @include media-query($on-laptop) {
       @include relative-font-size(1.75);

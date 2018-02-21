@@ -28,14 +28,58 @@ layout: homepage-only
         x.innerHTML = "Learn more.";
       }
     }
+
+    // // Some random colors
+    // const colors = ["#3CC157", "#2AA7FF", "#FCBC0F", "#F85F36"];
+
+    // const numBalls = 8;
+    // const balls = [];
+
+    // for (let i = 0; i < numBalls; i++) {
+    //   let ball = document.createElement("div");
+    //   ball.classList.add("ball");
+    //   ball.style.background = colors[Math.floor(Math.random() * colors.length)];
+    //   ball.style.left = `${Math.floor(Math.random() * 100)}vw`;
+    //   ball.style.top = `${Math.floor(Math.random() * 100)}vh`;
+    //   ball.style.transform = `scale(${Math.random()})`;
+    //   ball.style.width = `${Math.random()}em`;
+    //   ball.style.height = ball.style.width;
+      
+    //   balls.push(ball);
+    //   document.body.append(ball);
+    // }
+
+    // // Keyframes
+    // balls.forEach((el, i, ra) => {
+    //   let to = {
+    //     x: Math.random() * (i % 2 === 0 ? -11 : 11),
+    //     y: Math.random() * 12
+    //   };
+
+    //   let anim = el.animate(
+    //     [
+    //       { transform: "translate(0, 0)" },
+    //       { transform: `translate(${to.x}rem, ${to.y}rem)` }
+    //     ],
+    //     {
+    //       duration: (Math.random() + 1) * 2000, // random duration
+    //       direction: "alternate",
+    //       fill: "both",
+    //       iterations: Infinity,
+    //       easing: "ease-in-out"
+    //     }
+    //   );
+    // });
+
   </script>
 
 
-    <h2 class="intro">Adam Kopec is a multi-displinary designer from New York City, currently the Design Director at Hodinkee. He’s passionate about people, doing more with less, and building compelling products with soul. <a class="learn-more" id="button" onclick="revealBio(); changeText();">Learn more.</a>
+    <h2 class="intro"><span>Adam Kopec</span> is a multi-displinary designer from New York City, currently the Design Director at Hodinkee. He’s passionate about people, doing more with less, and building compelling products with soul. 
+    <a class="learn-more" id="button" onclick="revealBio(); changeText();">Learn more.</a>
     
     <div id="learning-more">
       <br>
-      Previously, he was an indpendent design consultant for clients like Warby Parker, First Round Capital, & more. He’s co-created some fun apps in his spare time such as Grateful, a SMS-based gratidude Journal, Enhance!, a gif-creator and a Stacks, a fun way to send money.  More of that can be on LinkedIn.
+    Previously, he was an indpendent design consultant for clients like Warby Parker, First Round Capital, & more. He’s co-created some fun apps in his spare time such as Grateful, a SMS-based gratidude Journal, Enhance!, a gif-creator and a Stacks, a fun way to send money.  More of that can be on LinkedIn.
       <br>
       <br>
       He’s passionate about building strong brands and compelling products. Believer in people, doing more with less, and building useful products with soul.
@@ -48,33 +92,32 @@ layout: homepage-only
     </div>
 
     </h2>
-    
+<!--   {% for post in site.posts %}
+    {% for tag in post.tags %}
+        <a class="{{ tag }}" href="{{ post.url }}">{{ post.title }}</a>
+    {% endfor %}
+  {% endfor %}   -->
 
   {% if site.posts.size > 0 %}
     <h2 class="post-list-heading">{{ page.list_title | default: "Select Work" }}</h2>
     <ul class="post-list">
       {% for post in site.posts %}
-      <li>
-        <!-- {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-        <div class="project-info">
-           <a class="post-link" href="{{ post.url | relative_url }}">
-              <img src="{{ post.thumbnail }}"/>
-              <h3> {{ post.title | escape }} </h3>
-          </a>
-          <a class="post-link client-name" href="{{ post.url | relative_url }}">
-            <h3>{{ post.category | escape }}</h3>
-          </a>
-        </div>
-
-        {% if site.show_excerpts %}
-          {{ post.excerpt }}
-        {% endif %}
-      </li>
+        {% for tag in post.tags %}
+        <li>
+          <!-- {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <span class="post-meta">{{ post.date | date: date_format }}</span> -->
+          <div class="project-info {{ tag }}", >
+             <a class="post-link" href="{{ post.url | relative_url }}">
+                <img src="{{ post.thumbnail }}"/>
+                <h3> {{ post.title | escape }} </h3>
+            </a>
+            <a class="post-link client-name" href="{{ post.url | relative_url }}">
+              <h3>{{ post.category | escape }}</h3>
+            </a>
+          </div>
+        </li>
+        {% endfor %}
       {% endfor %}
     </ul>
-
- <!--    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
   {% endif %}
-
 </div>

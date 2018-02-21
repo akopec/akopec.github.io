@@ -4,23 +4,130 @@ title:  "Redesigning Hodinkee.com"
 date:   2018-02-01 16:07:07 -0500
 category: Hodinkee
 thumbnail: "/assets/redesign.jpg"
+tag: hodinkee-1
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+![image of redesign]({{ "/assets/redesign.jpg" | absolute_url }})
 
-Jekyll also offers powerful support for code snippets:
+In 2017, I lead a redesign of hodinkee.com homepage and article pages, and a refresh of our CMS editor tools. The previous design was suffering from a number of issues: it felt outdated, rigid and blog-esque. Editors struggled to promote the content they wanted to promote due to a lack of flexibility in the design, and users complained the site was difficult to navigate, hard to read, and painfully slow. With the biggest trade show of the year around the corner, and new publisher advertising requirements knocking at our door, it was time for a refresh.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+After combing through user research, I sat down with our editorial, advertising, shop and engineering teams to gather requirements, and kicked off a discussion laying out v1 goals of a new design in time hit our two-month deadline. The initial spec I laid out was as follows:
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+## Specs
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+- Give our editors options to prioritize, display and pin content
+- Empower our writers to create beautiful, more engaging stories, faster
+- Encourage our readers to discover and consume more content
+- Display new "higher-impact" and more _viewable_ ad units in-stream of content
+- Integrate Hodinkee community features in a more meaningful way
+- Cross-browser fully responsive and iOS app-supported
+- Legible
+
+## The Problem
+The old homepage design was rigidly linear and blog-like. Stories were published in reverse-chronological order, and there were no thoughtful way to prioritize stories. While this type of layout was fine on slow news days, high-volume stories would quickly wash down the homepage feed, and be invisible by ~80% of our readers. (A quick dig into our analytics showed that only ~20% of our readers would make it past the second story on the homepage.) We we're leaving a ton of impressions on the table.
+
+![image of redesign]({{ "/assets/redesign/devices_1024.jpg" | absolute_url }})
+
+Additionally, new large-format "high-impact" ads we're becoming the industry standard, and we had to adopt it into our layout. We could have simply shoehorned these new bigger ads into our layout, but I felt if we we're going to do that, we owed it to our readers to re-think the experience and give them something in return.
+
+## The Challenge
+How might we design hodinkee.com so that it can adapt to the constantly changing needs of editorial, while making sure we meet adverting requirements and create an experience that feels immersive and magazine-like, all-the-while increasing the information density so users can quickly browse stories without having to scroll endlessly? We knew Hodinkee needed to feel like a place you could call home for a while. (Although we publish news, it shouldn't feel like a fast-news site. The average time on site is 34 minutes so we know our users they like to sit back, relax and really dig into it.) We needed to strike the perfect balance between immersive content, advertising and information density.
+
+## The Solution
+
+# A Dynamic Homepage
+After a number of concepts, iterations and testing, we decided to build a fully-customizable and modular homepage which we broke out into key sections. It would rely less on recency, but more on hand-picked and programatic curation.
+
+[image of homepage area]
+
+We have the "hero area" above the fold. This area is where editors could pin content for high visibility. When editors felt the stories had their run, they could easily unpin it and let it flow naturally in the feed.
+
+[graphic of modular homepage]
+
+Below that we have a modular homepage layout that would allow our editors to prioritize different content types. We defined a number of possible sections:
+
+- Latest
+- Featured Videos
+- Hand-picked collections of stories
+- Popular brands
+- Most shared articles
+- Most commented articles
+- Popular H Shop products 
+- Featured videos
+- Articles from Columns (Example: Talking Watches)
+
+We set some restrictions in order to maintain a nice flow of content, but for the most part, editors could move things up and down as they pleased. The beauty of this is we're able programmatically resurface Hodinkee's "greatest hits" type content and give editorial control of their content. Also, we felt this always-changing homepage would encourage users to scroll down further down the page to discover what's new and what they might have missed. 
+
+Introducing Templates & New Content Types
+We also wanted to completely re-think our article pages. We knew this was a chance to really push the envelope with beautiful magazine-style content types like full-bleed images, animated gifs and interactive elements. 
+
+[before and after]
+
+I sat down with our editors and audited the types of articles we could possibly write about. I wanted to see if we could design an experience that played well to the format of each story. After some discussion, we found we could create the notion of distinct templates:
+
+Short template: quick press releases and announcements
+Medium template: the most common template used for watch reviews, general news
+Feature-length template: used for special long reads, premium video-content, etc
+Video template: used for video series such as Talking Watches
+
+[image of templates]
+
+Now editors could pick a layout that compliments their story, and readers could enjoy a varied magazine-like feel to the experience. We broke out of a confined single-column layout and increased our grid-width. This allowed us more room to introduce new content types and layout options.
+
+# Design system
+![image of design system]({{ "/assets/redesign/type.jpg" | absolute_url }})
+
+I wanted to stay true to the upscale, confident, stoic and trustworthy brand of Hodinkee by using a monochromatic color palette and creating a feeling of sophistication with airy layouts and sparse thoughtful details. 
+
+![image of design system]({{ "/assets/redesign/colors.jpg" | absolute_url }})
+
+The restrained design puts content forward, but leaves just enough detail to inject some personality. 
+
+[image of moonphase]
+
+We moved to an 8pt grid (link here) and established a modular scale of typography. We sweated over the details of creating a comfortable reading pace across devices.
+
+CMS upgrade
+
+[before and after]
+
+Results
+
+Additionally, we found that the majority of our readers we're only getting to about 10% down the homepage before bouncing and reading an average of 1.4 articles per session. In the new design, readers are going about 30% down the homepage. They are visiting 3.4 articles, sharing 45% more articles, and we have 14% more comments.
+
+Readers seem to love it "pics of tweets / screenshots"
+
+
+
+General:
+Hed
+Dek
+Multiple authors
+Date published
+New Share icons
+Tags
+Content types:
+	Optional Dropcap
+	Ads
+	Right rail box ad
+	In-line billboard ad
+	In-line box ad (left or right aligned) (iPad TBD)
+	Photo/video/gifs with caption support
+	In-line photo (left or right aligned)
+	Slideshow
+	Full-width photos
+	Full-width 2-up photos
+	Small photos
+	Small 2-ups (text column width) (2-up display on iOS TBD)
+	Large
+	Large 2-up (content container width)
+	Headlines (same as today)
+	Thumnails (same as today)
+	Call out box
+	Rich text support
+	Photo/video/gif support
+	New pull quote style
+	Rich formatting captions
+	Bulleted lists
+
+
