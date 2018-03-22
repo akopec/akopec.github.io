@@ -8,23 +8,16 @@ tag: hodinkee-3
 
 ---
 
+{% include styles.md %}
+
+![image of lockup]({{ "/assets/future/luxury.jpg" | absolute_url }})
+
+{{ inner-wrapper }}
 
 # The challenge
 Also, the term “luxury” means something completely different today than it did even just a few years ago. Now, luxury to me means overnight delivery and the ability to purchase from a fast, well-designed, native iOS app. Champagne and caviar is fun the first time, and it still might get a certain type of buyer excited about a watch, but for me, and for many HODINKEE readers, we know everything about the product already, and we just want the experience to be as easy and painless as possible.
 
-HODINKEE says it's [right here](https://www.google.com)
-
-... which is shown in the screenshot below:
-![image of community]({{ "/assets/holding-phone.jpg" | absolute_url }})
-
-... you can [download the image]({{ "/assets/holding-phone.jpg" | absolute_url }}) directly.
-
-
-
 In most cases, people expressed frustration that they were buying a watch from someone who simply didn’t care as much or know the first thing about what they were selling. It was just a job to them. It made me think of a line I once heard from a friend who was, at the time, the CEO of Tourneau. He told me: "Ben, HODINKEE is the best thing to ever happen to us, and the worst. More young people care about watches than ever before, but because of you, they know more than our salespeople."
-
-
-
 
 Roles:
 Technology Team Lead, Business Design, Lead
@@ -44,17 +37,16 @@ Therefore, how do we leverage this into a luxury e-commerce experience? If we we
 The following is a case study on how we used a combination of design, technology, creative direction and storytelling to make authorized retailer of new luxury watches online, and a completely different way of doing business for us
 
 We collectively outlined the values we felt this experience needed to deliver on: 
-Authentic and passionate
-These value permeates every aspect
-Painstainkly curated
-We promised only to sell watches that we believed in and would wear. Only the best and most special we could get our hands on. Nothing more, and nothing less
-High-touch and world-class customer service
-Fast and on-demand
-Shopping with us had to feel luxurious, and to us that means fast and on-demand.
-Value-driven
-If you can’t add any value, you discount. If you can’t discount, you add value. We didn’t want to be in a race to see who can discount the fartherest, we wanted to provide unique experiences
-Personalized
-
+- Authentic and passionate
+- These value permeates every aspect
+- Painstainkly curated
+- We promised only to sell watches that we believed in and would wear. Only the best and most special we could get our hands on. Nothing more, and nothing less
+- High-touch and world-class customer service
+- Fast and on-demand
+- Shopping with us had to feel luxurious, and to us that means fast and on-demand.
+- Value-driven
+- If you can’t add any value, you discount. If you can’t discount, you add value. We didn’t want to be in a race to see who can discount the fartherest, we wanted to provide unique experiences
+- Personalized
 
 Good design is as little design possible. 
 One of Hodinkee’s greatest strengths is storytelling and presentation, so it was vital we leveraged that. The visual design should take backseat to content. Monochrome color palette, clean stoic editorial typefaces, airy layouts take a backseat to let the heros shine through: big beautiful photography showing every sumptuous detail of the product. It became clear that content was going to be the hero.
@@ -70,7 +62,6 @@ While speed is certainly important, we also wanted to design an experience that 
 
 Buying should feel personal
 Customer service should be top notch, but it’s there not just fix order problems, but also to build relationships. We maintain relationships with out customers. Additionally, we designed our packaging to have our customers information on each box. We’ve even built a fun quiz called “Watch Finder” which asks a series of question, then recommends watches for you. It should feel fun and personalize. The most important word to a customer is their name.
-
 
 Readers should have everything they need to make a purchasing decision
 A watch doesn’t live in a vacuum, it’s about it’s history, what it represents, what it says about you as a person. Therefore, the photography should provide a wrist shot, but also.
@@ -93,18 +84,6 @@ We built an interface to store all your paperwork online for you. We design a sp
 (Talk about H Shop + Shop journal - maybe site specific?)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 If you can’t discount, you must add value
 Fast, reliable, on-demand
 High touch customer service
@@ -122,7 +101,6 @@ Fast and on-demand
 Value-driven
 Personalized 
 High-touch
-
 
 
 With the HODINKEE Shop, it is our goal to make watch buying fun and easy. This way people will care about watches for years to come, because lets remember, and we are the first to admit it, nobody needs a watch anymore. So the entire experience should be fun, not frustrating. As such, every watch you see in the new HODINKEE Shop will ship same day and insured to anywhere in the world. In the United States that means overnight service and internationally we'll get the watch to you as quickly as a courier can move. Because who wants to wait? And who would have the gall to charge a shipping cost after someone just saved up their hard-earned money and decided to spend it with you on a watch? Not us.
