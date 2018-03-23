@@ -26,8 +26,9 @@ $content-width:    1200px !default;
 $inner-width: 		720px !default;
 $inner-width-homepage: 		820px !default;
 
-$on-palm:          600px !default;
+$on-palm:          740px !default;
 $on-laptop:        800px !default;
+$on-big-laptop:        1000px !default;
 
 // Use media queries like this:
 // @include media-query($on-palm) {

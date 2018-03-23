@@ -2,16 +2,81 @@ body {
   overflow-x: hidden;
 }
 
-.block-1 {
+.block-2 {
   position: relative;
-  height: 760px;
+  height: 1000px;
+
+  @include media-query($on-palm) {
+    height: auto;
+  }
 }
 
-.abso {
+.block-2 .meta-area {
+  position: relative;
+}
+
+.block-2 .abso {
+  position: absolute;
+  left: -160px;
+  width: 100%;
+
+  @include media-query($on-big-laptop) {
+    left: -200px;
+    top: 110px;
+  }
+
+  @include media-query($on-palm) {
+    position: static;
+  }
+
+}
+
+.block-2 .inner-wrapper-homepage {
+  padding-left: 30px;
+  float: right;
+  padding-right: 9%;
+  position: relative;
+  top: 260px;
+  width: 35%;
+
+  @include media-query($on-palm) {
+    height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: none;
+    width: auto;
+    position: static;
+  }
+}
+
+.block-1 {
+  position: relative;
+  height: 690px;
+
+  @include media-query($on-big-laptop) {
+    height: 450px;
+  }
+
+  @include media-query($on-palm) {
+    height: auto;
+  }
+}
+
+
+.block-1 .abso {
   position: absolute;
   top: -50px;
   right: -160px;
-  width: 109%;
+  width: 1080px ;
+
+  @include media-query($on-big-laptop) {
+    width: 860px;
+  }
+
+  @include media-query($on-palm) {
+    position: static;
+    width: 100%;
+  }
 }
 
 .rel {
@@ -32,13 +97,48 @@ body {
 
 }
 
+.iphone-bg {
+  max-width: 410px;
+  width: 100%;
+  height: 580px;
+  background-image: url(/assets/homepage/zoom/background.png);
+  display: block;
+  margin: 0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0px auto;
+  position: relative;
+  padding: 78px 20px;
+
+  @include media-query($on-big-laptop) {
+    max-width: 320px;
+  }
+
+  @include media-query($on-palm) {
+    max-width: 270px;
+    width: 100%;
+    padding: 58px 20px;
+  }
+}
+
+.iphone-bg video {
+  width: 64%;
+  box-shadow: 0px 0px 0px 3px #000;
+  border-radius: .25px;
+  background: #222;
+}
+
 img.top:hover {
   opacity:0;
 }
 
-.meta-area {
+.block-1 .meta-area {
   width: 226px;
   position: relative;
+
+  @include media-query($on-palm) {
+    width: auto;
+  }
 }
 
 .meta-area h3 {
@@ -84,49 +184,6 @@ img.top:hover {
   top: -250px;
 }
 
-
-/*.the-work {
-  overflow: hidden;
-}
-
-#cf {
-  background-size: 100%;
-  background-repeat: no-repeat;
-  position: relative;
-  display: block;
-  margin: 0 auto;
-}
-
-#cf .layered {
-  position: absolute;
-  height: auto;
-  width: 40%;
-  left: 36.2%;
-  top: 3.2%;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-#cf img.top:hover {
-  opacity:0;
-}
-
-.meta-area {
-  position: absolute;
-  width: 290px;
-  left: 17%;
-  top: 10%;
-  line-height: 1.8em;
-}
-
-.img-area {
-  position: relative;
-  top: 10px;
-  left: 120px;
-}
-*/
 /*Content*/
 
 .backdrop {
@@ -436,6 +493,7 @@ a.post-link.client-name:hover {
 }
 
 @include media-query($on-laptop) {
+
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
@@ -449,6 +507,7 @@ a.post-link.client-name:hover {
 }
 
 @include media-query($on-palm) {
+
   .footer-col {
     float: none;
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
