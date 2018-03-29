@@ -2,9 +2,52 @@ body {
   overflow-x: hidden;
 }
 
+.block-3 {
+  position: relative;
+  height: 760px;
+
+  @include media-query($on-palm) {
+    height: auto;
+  }
+}
+
+
+.block-3 .meta-area {
+    width: 226px;
+    position: relative;
+    top: 140px;
+
+  @include media-query($on-palm) {
+    width: auto;
+    position: static;
+  }
+}
+
+.block-3 .abso {
+  position: absolute;
+  top: -50px;
+  right: -51px;
+  width: 660px;
+
+  @include media-query($on-big-laptop) {
+    width: 520px;
+    top: 30px;
+  }
+
+  @include media-query($on-laptop) {
+    width: 430px;
+    top: 30px;
+  }
+
+  @include media-query($on-palm) {
+    position: relative;
+    width: 100%;
+  }
+}
+
 .block-2 {
   position: relative;
-  height: 1000px;
+  height: 790px;
 
   @include media-query($on-palm) {
     height: auto;
@@ -25,6 +68,10 @@ body {
     top: 110px;
   }
 
+  @include media-query($on-laptop) {
+    left: -150px;
+  }
+
   @include media-query($on-palm) {
     position: static;
   }
@@ -37,7 +84,12 @@ body {
   padding-right: 9%;
   position: relative;
   top: 260px;
-  width: 35%;
+  width: 240px;
+  right: 80px;
+
+  @include media-query($on-big-laptop) {
+    right: 20px;
+  }
 
   @include media-query($on-palm) {
     height: auto;
@@ -74,8 +126,11 @@ body {
   }
 
   @include media-query($on-palm) {
-    position: static;
-    width: 100%;
+    position: relative;
+    width: 145%;
+    top: 0;
+    left: -65px;
+    text-align: center;
   }
 }
 
@@ -118,6 +173,7 @@ body {
     max-width: 270px;
     width: 100%;
     padding: 58px 20px;
+    height: 400px;
   }
 }
 
