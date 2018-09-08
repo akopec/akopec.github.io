@@ -2,8 +2,8 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "Big Caslon", Helvetica, Arial, sans-serif !default;
-$base-font-size:   21px !default;
+$base-font-family: "Dia-Black", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
@@ -11,11 +11,11 @@ $base-line-height: 1.5 !default;
 $spacing-unit:     30px !default;
 $large-spacing-unit:       60px !default;
 
-$text-color:       #222 !default;
+$text-color:       #999999 !default;
 $background-color: #ffffff !default;
 $brand-color:      #222 !default;
 
-$grey-color:       #828282 !default;
+$grey-color:       #999999 !default;
 $grey-color-light: lighten($grey-color, 10%) !default;
 $grey-color-dark:  darken($grey-color, 45%) !default;
 
@@ -23,7 +23,7 @@ $table-text-align: left !default;
 
 // Width of the content area
 $content-width:    1200px !default;
-$inner-width: 		720px !default;
+$inner-width: 		1200px !default;
 $inner-width-homepage: 		820px !default;
 
 $on-palm:          740px !default;

@@ -2,213 +2,171 @@
 layout: homepage-only
 ---
 
+
 <div class="home">
   {% if page.title %}
     <h1 class="page-heading">{{ page.title }}</h1>
   {% endif %}
 
-
   {{ content }}
 
-
-
-  <script>
-    function revealBio() {
-      var x = document.getElementById("learning-more");
-      if (x.style.display === "block") {
-          x.style.display = "none";
-      } else {
-          x.style.display = "block";
-      }
-    }
     
-    function changeText() {
-      var x = document.getElementById("button");
-      if (x.innerHTML === "Learn more.") {
-        x.innerHTML = "Learn less.";
-      } else {
-        x.innerHTML = "Learn more.";
-      }
-    }
-  </script>
-
   <main class="page-content" aria-label="Content">
-    
-    <div class="wrapper">
-      <div class="inner-wrapper-homepage">
+    <div class="blue">
+      <div class="inner-wrapper">
+
+        <header class="site-header" role="banner">
+            <img src="/assets/logo.svg" alt="Adam Kopec">
+        </header>
         
-        <h2 class="intro">Adam Kopec is a multidisciplinary designer from New York City, currently the Design Director at Hodinkee.  <a class="learn-more" id="button" onclick="revealBio(); changeText();">Learn more.</a></h2>
-        
-        <div id="learning-more">
-          <h2 class="intro more">Previously, he founded his own design studio and worked with clients like <a href="/">Warby Parker</a>, TimeHop, First Round Capital and VaynerRSE. Before that, he lead design at Microsoft and Turntable.fm. More of that can be found on LinkedIn.
-            <br>
-            <br>
-            He’s passionate about building strong brands and compelling products. Believer in people, doing more with less, and building useful products with soul.
-            <br>
-            <br>
-            You should follow him on Instagram and Twitter. Or simply send him an email. He likes mail.
-          </h2>
+        <div class="intro">
+          <h1>Adam Kopec—</h1>
+          <h2>Designer & Creative Director</h2>
+          <a class="learn-more">Learn more<span class="arrow">→</span></a>
         </div>
       
       </div>
     </div>
-
-    <div class="wrapper">
-     
-      <div class="block-1">
-        
-        <div class="inner-wrapper-homepage">
-          <div class="meta-area">
-            <h4 class="small-guy">Select Work</h4>
-            <h3>Hodinkee Shop— <br><span>Web & iOS Design, Creative Direction</span></h3>
-            <h5>Leading Hodinkee into becoming one of the first authorized retailers of luxury watches online.</h5>
-            <h6 class="small-guy">Design Director</h6>
+    <div class="project-bg">
+      <div class="inner-wrapper">
+        <div class="project panel-1">
+          <h4>Design Director · <span>2015 - 2018</span></h4>
+          <div class="title-container">
+            <h3><span class="title">Hodinkee</span> — <span class="dek">Building the premiere lifestyle brand for watch collectors and luxury enthusiasts globally.</span></h3>
+            <h5 class="number">1</h5>
           </div>
-        </div>
-        
-        <div class="abso">
-          <div class="rel">
-            <img class="bottom layered" src="/assets/homepage/redesign/image-2.png" />
-            <img class="top layered" src="/assets/homepage/redesign/image-1.png" />
-            <img class="back" src="/assets/homepage/redesign/group.png" />   
+
+          <div class="slider">
+            <div class="slide"><img src="/assets/hodinkee/h-1.jpg"/></div>
+            <div class="slide"><img src="/assets/hodinkee/h-2.jpg"/></div>
+            <div class="slide"><img src="/assets/hodinkee/h-3.jpg"/></div>
+            <div class="slide"><img src="/assets/hodinkee/h-4.jpg"/></div>
           </div>
-        </div>
 
-      </div>
-
-      <div class="block-2">
-
-        <div class="inner-wrapper-homepage">
-          <div class="meta-area">
-            <h4 class="small-guy">Select Work</h4>
-            <h3>Zoom, Enhance!— <br><span>Co-Creator, Design</span></h3>
-            <h5>A fun app that zoomed to #1 on product hunat, top 10 on iTunes. Loved by many.</h5>
-            <h6 class="small-guy">Founder</h6>
-          </div>
-        </div>
-        
-        <div class="abso">
-          <div class="rel">
-            <div class="iphone-bg">
-              <video loop autoplay>
-                <source src="/assets/homepage/zoom/zoom-vid.webm" type="video/webm;">
-                <source src="/assets/homepage/zoom/zoom-vid.mp4" type="video/mp4;">
-              </video>
+          <div class="info">
+            <div class="col-1">
+              <h4>Role</h4>
+              <div class="roles">
+                <h4><span>Creative Direction</span></h4>
+                <h4><span>Digital Product Design</span></h4>
+                <h4><span>Product Strategy</span></h4>
+                <h4><span>Industrial/Print Design</span></h4>
+              </div>
+            </div>
+            <div class="col-2">
+              <h4>Overview</h4>
+              <p>As Design Director, I managed and develop a team of designers and engineers to create compelling consumer-facing and internal web and iOS products for all three of our technology, editorial and commerce businesseses. Additionally, creative directed of our e-commerce product along with our industrial and print design efforts like limited edition watches, packaging and our bi-annual print publication, the Hodinkee magazine.</p>
             </div>
           </div>
         </div>
-      
       </div>
-
-      <div class="block-3">
-        
-        <div class="inner-wrapper-homepage">
-          <div class="meta-area">
-            <h3>Hodinkee— <br><span>Web & iOS Design, Creative Direction</span></h3>
-            <h5>Leading Hodinkee into becoming one of the first authorized retailers of luxury watches online.</h5>
-            <h6 class="small-guy">Design Director</h6>
-          </div>
-        </div>
-        
-        <div class="abso">
-          <div class="rel">
-            <img class="back" src="/assets/homepage/h/h.jpg" />   
-          </div>
-        </div>
-
-      </div>
-
-
-
-
-    
     </div>
 
-  
+  <div class="project-bg">
+    <div class="inner-wrapper">
+      <div class="project panel-1">
+        <h4>Design Director · <span>2015 - 2018</span></h4>
+        <div class="title-container">
+          <h3><span class="title">Hodinkee Shop</span> — <span class="dek">Building one of the first authorized retailers of luxury watches online.</span></h3>
+          <h5 class="number">2</h5>
+        </div>
 
+        <div class="slider">
+          <div class="slide"><img src="/assets/h-shop/shop-1.jpg"/></div>
+          <div class="slide"><img src="/assets/h-shop/shop-2.jpg"/></div>
+          <div class="slide"><img src="/assets/h-shop/shop-3.jpg"/></div>
+          <div class="slide"><img src="/assets/h-shop/shop-4.jpg"/></div>
+          <div class="slide"><img src="/assets/h-shop/shop-5.jpg"/></div>
+          <div class="slide"><img src="/assets/h-shop/shop-6.jpg"/></div>
 
+        </div>
+
+        <div class="info">
+          <div class="col-1">
+            <h4>Role</h4>
+            <div class="roles">
+              <h4><span>Creative Direction</span></h4>
+              <h4><span>Digital Product Design</span></h4>
+              <h4><span>Business Strategy</span></h4>
+              <h4><span>Print Design</span></h4>
+              <h4><span>Watch Design</span></h4>
+            </div>
+          </div>
+          <div class="col-2">
+            <h4>Overview</h4>
+            <p>In 2017, we decided invest in our e-commerce business and leveraged our relationships into becoming one of the first authorized retailers of watches online. As Design Director, I creative directed a team of photographers and art directors, to build out the creative assets for our store. I designed the entire web and iOS experience, along with led product strategy. I also helped develop our product packaging, several limited editions and various marketing materials.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-bg zoom-bg">
+    <div class="inner-wrapper">
+      <div class="project panel-3">
+        <h4>Founder · <span>2016</span></h4>
+        <div class="title-container">
+          <h3><span class="title">Zoom, Enhance!</span> — <span class="dek">Pinch. Zoom. Repeat. Created incredibly addictive animated zooming gifs.</span></h3>
+          <h5 class="number">3</h5>
+        </div>
+
+        <div class="slider">
+          <div class="slide"><img src="/assets/enhance/z-1.jpg"/></div>
+          <div class="slide"><img src="/assets/enhance/z-2.jpg"/></div>
+        </div>
+
+        <div class="info">
+          <div class="col-1">
+            <h4>Role</h4>
+            <div class="roles">
+              <h4><span>Co-Founder</span></h4>
+              <h4><span>Product Designer</span></h4>
+            </div>
+
+            <h4>Demo</h4>
+            <div class="roles">
+              <h4><span>producthunt.com</span></h4>
+            </div>
+
+          </div>
+          <div class="col-2">
+            <h4>Overview</h4>
+            <p>In 2017, we decided invest in our e-commerce business and leveraged our relationships into becoming one of the first authorized retailers of watches online. As Design Director, I creative directed a team of photographers and art directors, to build out the creative assets for our store. I designed the entire web and iOS experience, along with led product strategy. I also helped develop our product packaging, several limited editions and various marketing materials.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   </main>
+</div>
+
+
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@latest/slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+
+    $(function(){
+      $('.slider').slick({
+        dots: true
+      });
+
+      document.getElementById('vid').play(); 
+
+      var vid = document.getElementById("vid");
+      vid.loop = true;
+
+    });
+
+    
 
 
 
 
-
-
+  </script>
 
 </div>
 
-<!--       <div class="wrapper">
-        <div class="inner-wrapper-homepage">
-
-          <div class="meta-area">
-            <h4 class="small-guy">Select Work</h4>
-            <h3>Hodinkee Shop<br><span>Web & iOS Design, Creative Direction</span></h3>
-            <h5>Leading Hodinkee into becoming one of the first authorized retailers of luxury watches online.</h5>
-            <h6 class="small-guy">Design Director</h6>
-          </div>
-        </div>
-      </div>
-      
-      <div class="testing">   
-        <div class="img-wrapper">
-          <div class="img-area">
-            <img class="bottom layered" src="/assets/homepage/redesign/image-2.png" />
-            <img class="top layered" src="/assets/homepage/redesign/image-1.png" />
-            <img class="back" src="/assets/homepage/redesign/group.png" />
-          </div>
-        </div>
-      </div>
- -->
-      
-
-
-
-<!--     <div class="the-work">
-      <h2 class="post-list-heading">{{ page.list_title | default: "Select Work" }}</h2>
-
-      <div class="h-shop">
-        <div id="cf">
-          <div class="meta-area">
-            <h2>Hodinkee Shop – Web & iOS Design, Creative Direction</h2>
-          </div>
-          
-          <div class=""
-          <div class="img-area">
-            <img class="bottom layered" src="/assets/homepage/redesign/image-2.png" />
-            <img class="top layered" src="/assets/homepage/redesign/image-1.png" />
-            <img class="back" src="/assets/homepage/redesign/group.png" />
-          </div>
-        </div>
-      </div>
- -->
-
-
-<!--   {% for post in site.posts %}
-    {% for tag in post.tags %}
-        <a class="{{ tag }}" href="{{ post.url }}">{{ post.title }}</a>
-    {% endfor %}
-  {% endfor %}   -->
-
-<!--   {% if site.posts.size > 0 %}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Select Work" }}</h2>
-    <ul class="post-list">
-      {% for post in site.posts %}
-        {% for tag in post.tags %}
-        <li> -->
-          <!-- {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-          <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-<!--           <div class="project-info {{ tag }}", >
-             <a class="post-link" href="{{ post.url | relative_url }}">
-                <img src="{{ post.thumbnail }}"/>
-                <h3> {{ post.title | escape }} </h3>
-            </a>
-            <a class="post-link client-name" href="{{ post.url | relative_url }}">
-              <h3>{{ post.category | escape }}</h3>
-            </a>
-          </div>
-        </li>
-        {% endfor %}
-      {% endfor %} -->
-<!--     </ul>
-  {% endif %} -->
