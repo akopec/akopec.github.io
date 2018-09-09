@@ -16,6 +16,9 @@
     font-weight: normal;
 }
 
+body {
+  overflow-x: hidden;
+}
 
 .project-bg {
   border-bottom: 1px solid #F2F2F2;
@@ -100,10 +103,6 @@ h4 span {
     font-size: 12px;
   }
 
-}
-
-body {
-  overflow-x: hidden;
 }
 
 .blue {
