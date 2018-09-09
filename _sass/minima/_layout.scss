@@ -20,6 +20,81 @@ body {
   overflow-x: hidden;
 }
 
+/*About Page Styles*/
+
+* {
+  box-sizing: border-box;
+}
+
+.overview-box.block {
+    padding-bottom: 20px;
+}
+
+.about-page .block {
+  padding-bottom: 20px;
+}
+
+.about-page .intro {
+  padding-top: 70px;
+
+  @include media-query($on-palm) {
+    padding-top: 30px;
+  }
+
+}
+
+.about-page .grid-wrapper{
+  display: inline-block;
+}
+
+
+.about-page .me {
+  float: left;
+  width: 50%;
+
+  @include media-query($on-palm) {
+    float: none;
+    width: 100%;
+    padding-top: 20px;
+  }
+}
+
+.about-page .column-2 {
+  width: 50%;
+  float: left;
+  padding-left: 40px;
+
+  @include media-query($on-palm) {
+    float: none;
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 20px;
+  }
+}
+
+.about-page .half-col {
+  float: left;
+  width: 50%;
+  padding-right: 10px;
+}
+
+.about-page .grid-wrapper p {
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.about-page .grid-wrapper li{
+  opacity: 0.7;
+  line-height: 1.1em;
+  padding-bottom: 7px;
+  font-size: 17px;
+} 
+
+.about-page h4 {
+  color: #ffffff;
+}
+
+/*End About Page Styles*/
 
 .project-bg {
   border-bottom: 1px solid #F2F2F2;
@@ -70,7 +145,7 @@ h4 span {
 
 }
 
-.project h4 {
+h4 {
   font-family: 'Dia-Black';
   color: #222222;
   font-size: 14px;
@@ -139,8 +214,8 @@ h4 span {
   max-width:         calc(#{$inner-width} - (#{$spacing-unit} * 2));
   margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+  padding-right: 30px;
+  padding-left: 30px;
   @extend %clearfix;
 
   @include media-query($on-laptop) {
@@ -164,6 +239,16 @@ h4 span {
     font-size: 16px;
     line-height: 2.6em;
     padding: 200px 0;
+  }
+}
+
+.about-page .intro {
+  font-size: 19px;
+  line-height: inherit;
+  font-family: 'PortraitText-Regular';
+  
+  @include media-query($on-palm) {
+    font-size: 17px;
   }
 }
 
@@ -374,7 +459,7 @@ font-size: 60px;
   padding: 0px !important;
 }
 
-.site-header ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
