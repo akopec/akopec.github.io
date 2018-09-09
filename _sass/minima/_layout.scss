@@ -1,12 +1,12 @@
 @font-face {
-    font-family: Dia-Black;
-    src: url(/fonts/Dia-Black.woff;);
+    font-family: 'Dia-Black';
+    src: url('Dia-Black.woff');
     font-weight: normal;
 }
 
 @font-face {
-    font-family: PortraitText-Regular-Web;
-    src: url(/fonts/PortraitText-Regular-Web.woff;);
+    font-family: 'PortraitText-Regular';
+    src: url('PortraitText-Regular-Web.woff';);
     font-weight: normal;
 }
 
@@ -29,7 +29,7 @@
 }
 
 p {
-  font-family: PortraitText-Regular;
+  font-family: 'PortraitText-Regular';
   color: #444444;
   font-size: 19px;
   line-height: 1.4em;
@@ -61,7 +61,7 @@ h4 span {
 }
 
 .project h4 {
-  font-family: Dia-Black;
+  font-family: 'Dia-Black';
   color: #222222;
   font-size: 14px;
 
@@ -76,6 +76,14 @@ h4 span {
 
   @include media-query($on-palm) {
     display: block;
+  }
+}
+
+.roles {
+  padding-bottom: 20px;
+
+  @include media-query($on-palm) {
+    padding-bottom: 10px;
   }
 }
 
