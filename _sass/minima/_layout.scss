@@ -20,6 +20,7 @@ body {
   overflow-x: hidden;
 }
 
+
 .project-bg {
   border-bottom: 1px solid #F2F2F2;
 }
@@ -107,6 +108,30 @@ h4 span {
 
 .blue {
   background-color: #041E9B;
+  position: relative;
+}
+
+
+.hex {
+  color: #ffffff;
+  opacity: 0.2;
+  font-size: 11px;
+  position: absolute;
+  bottom: 50px;
+  right: 20px;
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+
+  @include media-query($on-palm) {
+    right: -30px;
+    bottom: 50px;
+  }
+}
+
+.select {
+  color: #ffffff;
+  opacity: 0.6;
+  padding-bottom: 20px;
 }
 
 .inner-wrapper {
@@ -336,9 +361,41 @@ font-size: 60px;
   }
 }
 
+.site-header a {
+  color: #ffffff;
+}
+
+.site-header a:visited {
+  color: #ffffff;
+}
 
 .site-header .logo {
   width: 30px;
+  padding: 0px !important;
+}
+
+.site-header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header .home {
+  float: left;
+}
+
+.site-header .about {
+  padding-left: 30px;
+
+  @include media-query($on-palm) {
+    padding-left: 15px;
+  }
+}
+
+
+
+.site-header .right {
+  float: right;
 }
 
 .site-title {
