@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Dia-Black';
-    src: url('Dia-Black.woff');
+    src: url('/assets/fonts/Dia-Black.woff');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'PortraitText-Regular';
-    src: url('PortraitText-Regular-Web.woff';);
+    src: url('/assets/fonts/PortraitText-Regular-Web.woff';);
     font-weight: normal;
 }
 
@@ -122,7 +122,7 @@ body {
 }
 
 .intro  {
-  font-family: Portrait-Regular;
+  font-family: 'Portrait-Regular';
   color: #ffffff;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -138,7 +138,7 @@ body {
 }
 
 .intro h1 {
-  font-family: Dia-Black; 
+  font-family: 'Dia-Black'; 
   
   @include media-query($on-palm) {
     font-size: 30px;
@@ -150,7 +150,7 @@ body {
 
 
 .intro h2 {
-font-family: Portrait-Regular;
+font-family: 'PortraitText-Regular';
 font-size: 60px;
   @include media-query($on-palm) {
     font-size: 32px;
@@ -194,11 +194,11 @@ font-size: 60px;
 
 
 .title-container .title {
-  font-family: Dia-Black;
+  font-family: 'Dia-Black';
 }
 
 .title-container .dek {
-  font-family: Portrait;
+  font-family: 'PortraitText-Regular';
 }
 
 .title-container h3 {
