@@ -10,6 +10,12 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: 'Portrait-Regular';
+    src: url('../assets/fonts/Portrait-Regular-Web.woff');
+    font-weight: normal;
+}
+
 
 .project-bg {
   border-bottom: 1px solid #F2F2F2;
@@ -141,7 +147,7 @@ body {
   font-family: 'Dia-Black'; 
   
   @include media-query($on-palm) {
-    font-size: 30px;
+    font-size: 26px;
     line-height: 1em;
     margin-bottom: 0px;
   }
@@ -150,10 +156,10 @@ body {
 
 
 .intro h2 {
-font-family: 'PortraitText-Regular';
+font-family: 'Portrait-Regular';
 font-size: 60px;
   @include media-query($on-palm) {
-    font-size: 32px;
+    font-size: 26px;
   }
 }
 
@@ -187,7 +193,7 @@ font-size: 60px;
   line-height: 1.2em;
 
   @include media-query($on-palm) {
-    font-size: 24px;
+    font-size: 19px;
   }
 
 }
@@ -198,7 +204,7 @@ font-size: 60px;
 }
 
 .title-container .dek {
-  font-family: 'PortraitText-Regular';
+  font-family: 'Portrait-Regular';
 }
 
 .title-container h3 {
