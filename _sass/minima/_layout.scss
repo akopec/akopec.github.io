@@ -31,6 +31,7 @@ body {
 }
 
 
+
 /*Footer*/
 
 .end {
@@ -268,7 +269,16 @@ h4 {
   @include media-query($on-palm) {
     font-size: 12px;
   }
+}
 
+.project .roles h4 a{
+  color: #999999;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.project .roles h4 a:hover{
+  opacity: 0.6;
+  text-decoration: none;
 }
 
 .blue {
@@ -392,7 +402,7 @@ a.hex:hover {
   font-size: 50px;
   line-height: 1em;
   margin-bottom: 10px;
-  color: #F8C3B2;
+  /*color: #F8C3B2;*/
   
   @include media-query($on-palm) {
     font-size: 26px;
