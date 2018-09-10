@@ -339,6 +339,10 @@ a.hex:hover {
   }
 }
 
+.home .inner-wrapper {
+  animation: 3s ease-out 0s 1 fadein;
+}
+
 .intro  {
   font-family: 'Portrait-Regular';
   color: #ffffff;
@@ -356,6 +360,7 @@ a.hex:hover {
     padding: 200px 0;
   }
 }
+
 
 @keyframes fadein {
     from { opacity: 0; }
