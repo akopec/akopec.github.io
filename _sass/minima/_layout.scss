@@ -97,11 +97,13 @@ a.btn {
 
 /*About Page Styles*/
 
-* {
+a:hover {
   box-sizing: border-box;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
+
+
 
 .overview-box.block {
     padding-bottom: 20px;

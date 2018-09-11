@@ -122,7 +122,7 @@ layout: homepage-only
           </div>
           <div class="col-2">
             <h4>Overview</h4>
-            <p>Collaborating closely with our design, engineering, editorial, shop & marketing teams, I spearheaded the build out of our e-commerce business, leading Hodinkee into becoming one of the first authorized retailers of watches online. I played a key role in helping to define business strategy, providing product and technical leadership in all aspects of the business, as well as collaborating with leadership on product vision, strategy and roadmap. I also creative directed a team of photographers and art directors to execute on all our in-house shop product and marketing photography and videos. I designed the entire web and iOS experience, as well as helped develop our product packaging, several limited edition products and various marketing materials -- all through the lens of extending the Hodinkee brand.</p>
+            <p>Collaborating closely with our design, engineering, editorial, shop & marketing teams, I spearheaded the build out of our e-commerce business, and led Hodinkee into becoming one of the first authorized retailers of watches online. I played a key role in helping to define business strategy, providing product and technical leadership in all aspects of the business, as well as collaborating with leadership on product vision, strategy and roadmap. I also creative directed a team of photographers and art directors to execute on all our in-house shop product and marketing photography and videos. I designed the entire web and iOS experience, as well as helped develop our product packaging, several limited edition products and various marketing materials -- all through the lens of extending the Hodinkee brand.</p>
           </div>
         </div>
       </div>
@@ -334,27 +334,31 @@ layout: homepage-only
 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@latest/slick/slick.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
   <script type="text/javascript">
 
     $(function(){
       $('.slider').slick({
         dots: true,
-        arrows: false
+        infinite: true,
+        slidesToScroll: 1,
       });
 
-      // document.getElementById('vid').play(); 
-
-      // var vid = document.getElementById("vid");
-      // vid.loop = true;
-
+      $(document).on('click', '.slider', function() { 
+        $('.slider').slick('slickNext')
+      });
     });
-
-    
 
   </script>
 
+
+<!-- 
+  // document.getElementById('vid').play(); 
+
+  // var vid = document.getElementById("vid");
+  // vid.loop = true; -->
+  
 </div>
 
 
