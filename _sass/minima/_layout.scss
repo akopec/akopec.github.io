@@ -162,7 +162,7 @@ a:hover {
 }
 
 .about-page .half-col a {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .about-page .grid-wrapper p {
@@ -773,10 +773,12 @@ ul {
    padding: $spacing-unit 0;
  }
 
-.about-page .site-footer p{
-  color: #ffffff42;
+.about-page .site-footer p {
+    color: #ffffff42;
+    font-family: 'Dia-Black';
+    font-size: 13px;
+    padding-top: 10px;
 }
-
 
 .site-footer {
   border-top: 1px solid $grey-color-light;
