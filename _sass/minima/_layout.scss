@@ -449,7 +449,13 @@ a.hex:hover {
 
 .intro a {
   color: #ffffff;
-  font-family: 'Dia-Black';
+  font-family:'Dia-Black';
+  border-bottom: 1px solid #ffffff2a;
+}
+
+.intro a.learn-more {
+  color: #ffffff;
+  font-family:'Dia-Black';
   font-size: 19px;
   border-bottom: 1px solid #ffffff2a;
 }
